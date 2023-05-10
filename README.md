@@ -6,15 +6,15 @@ Are you tired of exporting each sibling file in your Express.js application manu
 
 You can install lazy-index globally using npm:
 
-perlCopy code
-
-`npm install -g lazy-index`
+```javascript
+npm install -g lazy-index
+```
 
 Once installed, simply navigate to the directory you want to populate the index.js file for and enter the following command in your terminal:
 
-perlCopy code
-
-`lazy-index`
+```javascript
+lazy - index;
+```
 
 And just like that, all of your sibling files are automatically exported in your index.js file!
 
