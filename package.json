@@ -1,7 +1,7 @@
 {
   "name": "lazy-index",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automatically populates the index.js files of folders with exports of sibling files in Express backend applications.",
   "main": "index.js",
   "bin": {
     "lazy-index": "./index.js"
@@ -9,11 +9,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "backend",
+    "index",
+    "lazy-index",
+    "export",
+    "sibling-files"
+  ],
+  "author": "cacti23",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
     "inquirer": "^9.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cacti23/lazy-index.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cacti23/lazy-index/issues"
+  },
+  "homepage": "https://github.com/cacti23/lazy-index#readme"
 }
