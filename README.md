@@ -13,7 +13,7 @@ npm install -g lazy-index
 Once installed, simply navigate to the directory you want to populate the index.js file for and enter the following command in your terminal:
 
 ```javascript
-lazy - index;
+lazy-index
 ```
 
 And just like that, all of your sibling files are automatically exported in your index.js file!
