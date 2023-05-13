@@ -42,15 +42,10 @@ const main = async () => {
 
   const syntax = await askForJavascriptSyntax();
 
-  // get all subfolders inside the logic folder
   const logicSubfoldersPathsArray = await getAllSubfolders(logicFolderPath, []);
 
-  // console.log(logicSubfoldersPathsArray);
-
-  // go to each subfolder and create index.js file if it's not present
   logicSubfoldersPathsArray.forEach(createIndexFile);
 
-  // get all the exports form file in a particular folder
   const logicSubFoldersExportsObject = getFolderExports(
     logicSubfoldersPathsArray
   );
@@ -58,10 +53,6 @@ const main = async () => {
   writeExportsInIndexFile(logicSubFoldersExportsObject, syntax.toLowerCase());
 
   console.log(chalkStyles.success("All done!"));
-
-  // const { bye } = require("./app/subdir");
-
-  // console.log(bye());
 
   return;
 };
