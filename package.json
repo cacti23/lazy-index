@@ -1,6 +1,6 @@
 {
   "name": "lazy-index",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically populates the index.js files of folders with exports of sibling files in Express backend applications.",
   "main": "index.js",
   "bin": {
